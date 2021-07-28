@@ -12,6 +12,7 @@ mod hashmaps;
 mod err_ors;
 mod files;
 mod push;
+mod lifetimes;
 
 
 //use std::io;
@@ -35,5 +36,6 @@ fn main()
     //hashmaps::hashing();
     //err_ors::error();
     files::read();
+    lifetimes::life()
     //println!("Hello, world!");
 }
